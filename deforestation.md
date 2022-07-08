@@ -32,10 +32,12 @@ AND country_name = 'World'```
 
 39958245.9
 
+```sql 
 SELECT SUM (f.forest_area_sqkm) 
 FROM forest_area f
 WHERE year= 2016
-AND country_name = 'World'  
+AND country_name = 'World'
+```  
 
 1.C What was the change (in sq km) in the forest area of the world from 1990 to 2016?
 
