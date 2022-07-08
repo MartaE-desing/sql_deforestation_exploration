@@ -15,7 +15,8 @@ ON f.country_code=l.country_code
 AND f.year=l.year
 JOIN regions r
 ON l.country_code=r.country_code
-ORDER BY 1 DESC;```
+ORDER BY 1 DESC;
+```
 
 
 ## 1.a  What was the total forest area (in sq km) of the world in 1990? Please keep in mind that you can use the country record denoted as “World" in the region table.  
@@ -26,7 +27,8 @@ ORDER BY 1 DESC;```
 SELECT SUM (f.forest_area_sqkm) 
 FROM forest_area f
 WHERE year= 1990
-AND country_name = 'World'``` 
+AND country_name = 'World'
+``` 
  
 1.b. What was the total forest area (in sq km) of the world in 2016? Please keep in mind that you can use the country record in the table is denoted as “World.”
 
